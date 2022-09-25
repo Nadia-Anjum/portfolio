@@ -1,0 +1,71 @@
+.biomegaHeader{
+  text-align: center;
+  font-size: 40;
+}
+
+.projektbiomega{
+  width: 100%;
+  margin: 2rem 0;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.projektbiomegaHeader{
+  text-align: start;
+} 
+
+.projektbiomega .leftprojektbiomega{
+  text-align: start;
+  margin: auto;
+  padding: 1rem;
+  max-width: 500px;
+}
+
+.projektbiomega .leftprojektbiomega p{
+  margin:1.2rem 0;
+  font-size: 18px;
+}
+
+.projektbiomega .rightprojektbiomega{
+  max-width: 500px;
+  margin-left: 100px;
+}
+
+.rightprojektbiomega .img-containerbiomega{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.rightprojektbiomega .imgbiomega{
+  border-radius: 10px;
+  max-height: 480px;
+
+}
+ 
+.projektbiomega h2{
+  color: #533875;
+}
+
+.projektbiomega h3{
+  color: #533875;
+} 
+
+
+
+@media screen and (max-width: 600px) {
+  .projektbiomega .rightprojektbiomega{
+    max-width: 600px;
+    margin-left: 30px;
+  }
+  .rightprojektbiomega .imgbiomega{
+    max-height: 400px;
+  }
+
+}

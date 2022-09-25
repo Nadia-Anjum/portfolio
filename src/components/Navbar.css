@@ -1,0 +1,37 @@
+
+
+  /* Navbar */
+Nav{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+  align-items: center;
+  }
+   
+ 
+ .logo{
+    width: 110px;
+    justify-content: start;
+margin: auto;
+margin-left: 20px;
+  }
+   
+  nav a {
+   
+    color: #000000;
+    text-align: end;
+    padding: 0 18px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+   
+  nav a:hover {
+    color: #533875;
+  }
+   
+  .active{
+    color: #533875
+  }
+  

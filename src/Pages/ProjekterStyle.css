@@ -1,0 +1,146 @@
+
+.mainHeaderprojekt{
+  text-align: center;
+  font-size: 40px;
+  margin: 1rem;
+} 
+
+.introh3projekt{
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.projekt1{
+  width: 100%;
+  margin: 2rem 0;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.projekt1Header{
+  text-align: start;
+} 
+
+.projekt1 .leftprojekt1{
+  text-align: start;
+  margin: auto;
+  padding: 1rem;
+  max-width: 500px;
+}
+
+.projekt1 .leftprojekt1 p{
+  margin:1.2rem 0;
+  font-size: 18px;
+}
+
+.projekt1 .rightprojekt1{
+  max-width: 500px;
+  margin-left: 100px;
+}
+
+.rightprojekt1 .img-container1{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.rightprojekt1 .img1{
+  border-radius: 10px;
+  max-height: 240px;
+  border: 1px solid black;
+
+}
+
+
+/* tekst venstre - billede højre*/
+.projekt2{
+  width: 100%;
+  margin: 1rem 1;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  background-color: #dbd3e7;
+} 
+
+.projekt2Header{
+  text-align: start;
+} 
+
+.projekt2 .leftprojekt2{
+  text-align: start;
+  margin: auto; 
+  padding: 3em; 
+  max-width: 500px;
+  margin-left: 90px;
+}
+
+.projekt2 .leftprojekt2 p{
+  margin:1.2rem 0;
+  font-size: 18px;
+}
+
+.projekt2 .rightprojekt2{
+  max-width: 576px;
+}
+
+.rightprojekt2 .img-container2{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.rightprojekt2 .img2{
+  border-radius: 10px;
+  max-height: 240px;
+  border: 1px solid black;
+
+} 
+
+.pFarve{
+  color: #533875;
+  font-weight: bold;
+}
+
+.projekt1 h2{
+  color: #533875;
+}
+.projekt2 h2{
+  color: #533875;
+}
+
+
+@media screen and (max-width: 600px) {
+  .projekt1 .rightprojekt1{
+      max-width: 600px;
+      margin-left: 30px;
+    }
+    .rightprojekt1 .img1{
+      max-height: 200px;
+    }
+    .projekt2 .rightprojekt2{
+      max-width: 600px;
+      margin-left: 30px;
+    }
+    .rightprojekt2 .img2{
+      max-height: 200px;
+    }
+    .projekt2 .leftprojekt2{
+      margin-left: 5px;
+    }
+  
+
+}

@@ -1,0 +1,82 @@
+.portfolioHeader{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.portfolioHeader{
+  text-align: center;
+  font-size: 40;
+  margin: 0px;
+}
+
+.projektportfolio{
+  width: 100%;
+  margin: 2rem 0;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.projektportfolioHeader{
+  text-align: start;
+} 
+
+.projektportfolio .leftprojektportfolio{
+  text-align: start;
+  margin: auto;
+  padding: 1rem;
+  max-width: 500px;
+}
+
+.projektportfolio .leftprojektportfolio p{
+  margin:1.2rem 0;
+  font-size: 18px;
+}
+
+.projektportfolio .rightprojektportfolio{
+  max-width: 500px;
+  margin-left: 100px;
+}
+
+.rightprojektportfolio .img-containerportfolio{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.rightprojektportfolio .imgportfolio1{
+  border-radius: 10px;
+  max-height: 480px;
+margin-top: 0.2rem;
+}
+
+.projektportfolio h2{
+  color: #533875;
+}
+ 
+.projektportfolio h3{
+  color: #533875;
+}
+
+.linkPf{
+  text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .projektportfolio .rightprojektportfolio{
+    max-width: 600px;
+    margin-left: 30px;
+  }
+  .rightprojektportfolio .imgportfolio1{
+    max-height: 400px;
+  }
+
+}

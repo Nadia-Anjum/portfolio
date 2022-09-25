@@ -1,0 +1,76 @@
+.anhHeader{
+  text-align: center;
+  font-size: 40;
+  margin: 0px;
+}
+
+.projektanh{
+  width: 100%;
+  margin: 2rem 0;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.projektanhHeader{
+  text-align: start;
+} 
+
+.projektanh .leftprojektanh{
+  text-align: start;
+  margin: auto;
+  padding: 1rem;
+  max-width: 500px;
+}
+
+.projektanh .leftprojektanh p{
+  margin:1.2rem 0;
+  font-size: 18px;
+}
+
+.projektanh .rightprojektanh{
+  max-width: 500px;
+  margin-left: 100px;
+}
+
+.rightprojektanh .img-containeranh{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.rightprojektanh .imganh{
+  border-radius: 10px;
+  max-height: 480px;
+ 
+}
+
+.projektanh h2{
+  color: #533875;
+}
+
+.projektanh h3{
+  color: #533875;
+}
+
+.emailPf{
+  text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .projektanh .rightprojektanh{
+    max-width: 600px;
+    margin-left: 30px;
+  }
+  .rightprojektanh .imganh{
+    max-height: 400px;
+  }
+
+}

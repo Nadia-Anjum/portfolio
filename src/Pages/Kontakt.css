@@ -1,0 +1,78 @@
+.introtekst{
+    text-align: center;
+}
+
+.kontakt{
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .kontaktHeader{
+    text-align: start;
+    font-size: 40px;
+  } 
+  
+  .kontakt .leftkontakt{
+    text-align: start;
+    margin: auto;
+    padding: 1rem;
+    max-width: 500px;
+  }
+
+  .kontakt .leftkontakt p{
+    margin:1.2rem 0;
+    font-size: 20px;
+  }
+
+  .kontakt .rightkontakt{
+    max-width: 500px;
+    margin-left: 100px;
+  }
+
+  .rightkontakt .img-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+  }
+
+  .rightkontakt .img{
+    border-radius: 50px;
+    max-height: 500px;
+    border: 1px solid black;
+
+  }
+
+  .email1{
+    display: flex;
+    margin-bottom: 0.8rem;
+    text-decoration: none;
+  }
+  
+  .email1 p{
+    line-height: 2px;
+  }
+
+
+  .social1{
+    display: flex;
+    margin-bottom: 0.8rem;
+    text-decoration: none;
+  }
+  
+  .social1 p{
+    line-height: 2px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .kontakt .rightkontakt{
+        max-width: 400px;
+        margin-left: 30px;
+      }
+  }
